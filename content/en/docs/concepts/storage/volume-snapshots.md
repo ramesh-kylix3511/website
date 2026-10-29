@@ -40,7 +40,7 @@ volume on the storage system and therefore cannot be expressed by using the same
 
 Volume snapshots provide Kubernetes users with a standardized way to copy a volume's
 contents at a particular point in time without creating an entirely new volume. This
-functionality enables, for example, database administrators to backup databases before
+functionality enables, for example, database administrators to back up databases before
 performing edit or delete modifications.
 
 Users need to be aware of the following when using this feature:
