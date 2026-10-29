@@ -499,7 +499,7 @@ Once all CSRs are signed, you can delete the root CA key (`ca.key`) as noted in 
 {{< /note >}}
 
 For secondary control plane nodes (`kubeadm join --control-plane`) there is no need to call
-the above commands. Depending on how you setup the
+the above commands. Depending on how you set up the
 [High Availability](/docs/setup/production-environment/tools/kubeadm/high-availability)
 cluster, you either have to manually copy the same files from the primary
 control plane node, or use the automated `--upload-certs` functionality of `kubeadm init`.
