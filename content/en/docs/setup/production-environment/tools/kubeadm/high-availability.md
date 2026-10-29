@@ -273,7 +273,7 @@ with `kubectl -n kube-system rollout restart deployment coredns` after at least 
 ## External etcd nodes
 
 Setting up a cluster with external etcd nodes is similar to the procedure used for stacked etcd
-with the exception that you should setup etcd first, and you should pass the etcd information
+with the exception that you should set up etcd first, and you should pass the etcd information
 in the kubeadm config file.
 
 ### Set up the etcd cluster
